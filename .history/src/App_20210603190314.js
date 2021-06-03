@@ -6,7 +6,6 @@ import Header from './components/Header'
 import Tagline from './components/Tagline'
 import Form from './components/Form'
 import WeatherForecast from './components/WeatherForecast';
-import Footer from './components/Footer';
 /*--------------- Importing Components ------------------- */
 
 function App() {
@@ -16,8 +15,7 @@ function App() {
         <Header />
         <Tagline />
         <Form />
-        <WeatherForecast />
-        <Footer />
+        
       </Wrapper>
     </div>
   );

@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Wrapper>
+      <Wrapper className="text-center">
         <Header />
         <Tagline />
         <Form />
